@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bs-gray-200);
+}
+
+button {
+  width: fit-content;
+  border: none;
+  background-color: transparent;
+  color: var(--bs-gray);
+}
+
+button:hover {
+  color: var(--bs-gray-700);
+}
+
+.btn-success.focus,
+.btn-success:focus {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.btn-danger.focus,
+.btn-danger:focus {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
