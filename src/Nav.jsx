@@ -24,9 +24,9 @@ function Nav() {
     const logIn = () => {
         signInWithPopup(auth, new GoogleAuthProvider())
             .then((result) => {
-                console.log(result)
+                // console.log(result)
             }).catch((error) => {
-                console.log(error)
+                // console.log(error)
             });
     }
 
